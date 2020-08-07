@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url("app.jpeg");
+    background-repeat: repeat-x;
+    height:100vh;
+    background-position:0 0;
+    background-size: cover;
+    object-fit: contain;
+    -webkit-animation: container 20s linear infinite;
+    animation: container 20s linear infinite;
+    z-index: 1;
+}
+
+@keyframes container{
+    0%{
+      background-position: 0 0;
+      }
+      100%{
+        background-position: 100% 0;
+       
+      }
+}
+
+
+.content{
+  margin-left: 10%;
+  text-align: center;
+  padding-top:120px;
+  font-size: 2em;
+  background: url("cloud.png");
+  background-repeat: repeat-y;
+  z-index: 1;
+  border-radius: 50%;
+  background-position:0 0;
+  background-size: cover;
+  object-fit: contain;
+  -webkit-animation: container 20s linear infinite;
+  animation: container 20s linear infinite;
+  z-index: 1;
+
+}
+
+
